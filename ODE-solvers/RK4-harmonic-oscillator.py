@@ -55,7 +55,7 @@ for t in t_values:
     v += (dt / 6) * (k1_v + 2*k2_v + 2*k3_v + k4_v)
 
 
-# ---- Plot 1: x(t) ----
+# Plot 1: x(t)
 plt.figure()
 plt.plot(t_values, x_values)
 plt.xlabel("Time")
@@ -64,7 +64,7 @@ plt.title("Harmonic Oscillator")
 plt.grid(True)
 plt.show()
 
-# ---- Plot 2: Phase Space ----
+# Plot 2: Phase Space
 plt.figure()
 plt.plot(x_values, v_values)
 plt.xlabel("Position x")
