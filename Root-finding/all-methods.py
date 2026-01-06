@@ -1,4 +1,4 @@
-# I ae used the equation f(x)=cos(x)−x here and solved using Bisection method, Secant method, and Newton-Rahpson method
+# I have used the equation f(x)=cos(x)−x here and solved using Bisection method, Secant method, and Newton-Rahpson method
 
 import numpy as np
 import matplotlib.pyplot as plt
